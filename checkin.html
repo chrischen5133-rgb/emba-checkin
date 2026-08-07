@@ -91,8 +91,17 @@ return;
 }
 
 
+let now = new Date();
+
+let time = now.toLocaleString("zh-CN");
+
 alert(
-"签到成功！\n姓名："+name
+"签到成功！\n\n"+
+"姓名："+name+
+"\n课程：战略管理"+
+"\n日期：2026年9月3日"+
+"\n时间："+time+
+"\n方式：H5签到"
 );
 
 
